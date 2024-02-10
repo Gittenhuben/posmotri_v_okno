@@ -52,7 +52,7 @@ ol {
 
 .result__video-container {
   position: relative;
-  padding: 78px 30px 16px 0;
+  margin: 78px 30px 16px 0;
 }
 
 .result__video {
@@ -299,6 +299,8 @@ ol {
   inline-size: 196px;
   block-size: 107px;
   padding: 2px 2px 2px 0;
+  object-fit: cover;
+  object-position: center;
 }
 
 .more-button {
